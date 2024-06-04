@@ -22,7 +22,7 @@ def main():
                   nr.Sigmoid())
     model.loss_fn = nr.MSE()
 
-    batch_size = 1
+    batch_size = 64
     epoch = 50
     lr = .001
 
@@ -49,7 +49,7 @@ def main():
                 total_acc = 0
                 total_loss = 0
                 count = 0
-                print(output)
+                # print(output)
 
         total_acc = 0
         total_loss = 0
